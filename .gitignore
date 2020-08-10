@@ -1,0 +1,22 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+sr-qa.json
+watchGCS
+debug.test
+gcs-hook-server
+trace.out
+gcshook
+sr-ps.json
+sr.json
+.idea/
+.DS_Store

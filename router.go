@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/g8y3e/router/controller"
-	"github.com/g8y3e/router/entity"
+	"github.com/vallen-genar/router/controller"
+	"github.com/vallen-genar/router/entity"
 	"net/http"
 	"regexp"
 )

@@ -1,6 +1,8 @@
 package router
 
-import "github.com/g8y3e/router/entity"
+import (
+	"github.com/vallen-genar/router/entity"
+)
 
 type Config struct {
 	Prefix string

@@ -45,5 +45,8 @@ func (r *Route) Process(w http.ResponseWriter, req *http.Request, params map[str
 	}
 
 	// process controllers
-	r.pathController.Process(w, req, params)
+	err := r.pathController.Process(w, req, params)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusBadRequest)
+	}
 }
